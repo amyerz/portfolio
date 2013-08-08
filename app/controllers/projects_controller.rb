@@ -11,11 +11,11 @@ class ProjectsController < ApplicationController
   end
 
   def create
-    respond_with Project.create(params[:question])
+    respond_with Project.create(params[:project])
   end
 
   def update
-    respond_with Project.update(params[:id], params[:question])
+    respond_with Project.update(params[:id], params[:project])
   end
 
   def destroy
