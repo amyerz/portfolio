@@ -1,5 +1,7 @@
 Portfolio::Application.routes.draw do
-  resources :projects
+  scope "api" do
+    resources :projects
+  end
 
 
   get "homepage/index"
