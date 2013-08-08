@@ -1,5 +1,5 @@
 Portfolio::Application.routes.draw do
-  resources :project_names
+  resources :projects
 
 
   get "homepage/index"
