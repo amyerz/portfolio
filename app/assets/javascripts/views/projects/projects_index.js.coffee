@@ -4,5 +4,5 @@ class Portfolio.Views.ProjectsIndex extends Backbone.View
 
   render: ->
   	console.log
-  	$(@el).html(@template())
+  	$(@el).html(@template(projects: "GA projects"))
   	this
